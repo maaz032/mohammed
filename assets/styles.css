@@ -1,0 +1,25 @@
+/* assets/styles.css */
+body {
+  background-color: white;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+.streamlit-expanderHeader {
+  color: #333;
+}
+.stButton>button {
+  background-color: #007bff;
+  color: white;
+}
+.stButton>button:hover {
+  background-color: #0056b3;
+}
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+.stButton>header:hover {
+  background-color: #0056b3;
+}

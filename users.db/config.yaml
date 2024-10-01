@@ -1,0 +1,19 @@
+credentials:
+  users:
+    user1:
+      username: user1
+      password: $2b$12$kEJ6U/xWGjeHvC8vRaUk3uz7p5sD4cK61.s/kWzEG2khzOtlMQJ/q # hashed password
+    user2:
+      username: user2
+      password: $2b$12$kEJ6U/xWGjeHvC8vRaUk3uz7p5sD4cK61.s/kWzEG2khzOtlMQJ/q # hashed password
+  # optional: salt, encrypted, hashing algorithm details
+  # salt: your_salt_here
+  # hashing_algorithm: bcrypt
+
+cookie:
+  expiry_days: 30
+  secure: false
+
+# To use default Streamlit theme, set to true.
+theme:
+  use_default: true
